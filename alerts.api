@@ -1,0 +1,14 @@
+client-facing API
+- login
+- handshake
+- select alert
+
+sockets server
+- on-join
+    -> return alertList
+- on-select-alert
+- persist change (it’s going to store the change to db and/or validate the selection of the alert)
+"if the validation/save step is successful it will update the 
+    state of alertList then broadcast the changes"
+    
+    - 
